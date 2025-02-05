@@ -37,3 +37,6 @@ C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Web.API\obj\Debug\ne
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Web.API\obj\Debug\net7.0\Web.API.pdb
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Web.API\obj\Debug\net7.0\Web.API.genruntimeconfig.cache
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Web.API\obj\Debug\net7.0\ref\Web.API.dll
+C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Web.API\bin\Debug\net7.0\MediatR.dll
+C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Web.API\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Web.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

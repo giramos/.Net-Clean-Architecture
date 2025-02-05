@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ix0WIaiknJb6PADXCEobHsRZJFAgbB18Ax8oeYo7DATH1Gw7W50k48DpiIqRT3bWtLi4ZU6Oykm9A4qeamaKew==",
+  "dgSpecHash": "B//shBwUtoxbLZ8IvumlhO+IbwuiiDELVGCP159Blg2pvVY3hYtUyhTsg1jLPVt3qxGJ6YOa1PDqq72pXvsm7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\germa\\Desktop\\DDD\\.Net-Clean-Architecture\\Proyecto\\Infrastructure\\Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\germa\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\germa\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\germa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
