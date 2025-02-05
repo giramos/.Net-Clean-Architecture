@@ -4,4 +4,4 @@ namespace Domain.Customer;
 /// Identificador de cliente
 /// </summary>
 /// <param name="value"></param>
-public record class CustomerId(Guid value);// Value Object
+public record class CustomerId(Guid Value);// Value Object
