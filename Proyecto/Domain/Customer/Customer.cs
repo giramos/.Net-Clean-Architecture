@@ -26,7 +26,7 @@ public sealed class Customer : AggregateRoot
     public string FullName => $"{Name} {LastName}"; // Propiedad de solo lectura
     public string Email { get; private set; } = string.Empty; // Propiedad
 
-    public PhoneNumber PhoneNumber { get; private set; }; // Value Object
+    public PhoneNumber PhoneNumber { get; private set; } // Value Object
 
     public Address Address { get; private set; } // Value Object
 

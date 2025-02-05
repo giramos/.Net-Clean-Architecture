@@ -1,11 +1,14 @@
+using Application;
+using Infrastructure;
+using Web.API;
+using Web.API.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddPresentation() // Añadimos la inyección de dependencias de presentación
+                .AddInfrastructure(builder.Configuration) // Añadimos la inyección de dependencias de infraestructura
+                .AddApplication(); // Añadimos la inyección de dependencias de aplicación
 
 var app = builder.Build();
 
@@ -14,6 +17,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ApplyMigrations(); // Añadimos la migración
 }
 
 app.UseHttpsRedirection();

@@ -1,4 +1,5 @@
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\bin\Debug\net7.0\Application.runtimeconfig.json
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\bin\Debug\net7.0\Application.dll
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\bin\Debug\net7.0\Application.pdb
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\bin\Debug\net7.0\Domain.dll
@@ -12,4 +13,5 @@ C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\obj\Debu
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\obj\Debug\net7.0\Application.dll
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\obj\Debug\net7.0\refint\Application.dll
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\obj\Debug\net7.0\Application.pdb
+C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\obj\Debug\net7.0\Application.genruntimeconfig.cache
 C:\Users\germa\Desktop\DDD\.Net-Clean-Architecture\Proyecto\Application\obj\Debug\net7.0\ref\Application.dll

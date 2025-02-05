@@ -12,7 +12,7 @@ namespace Infrastructure.Persistence.Configuration
         public void Configure(EntityTypeBuilder<Customer> builder)
         {
 
-            // builder.ToTable("Customers"); // Configuración de la tabla Customers
+            builder.ToTable("Customers"); // Configuración de la tabla Customers
 
             builder.HasKey(c => c.Id); // Primary Key
             // Configuración de la propiedad Id
