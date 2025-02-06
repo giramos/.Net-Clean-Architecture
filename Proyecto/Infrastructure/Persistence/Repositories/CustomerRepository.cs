@@ -18,10 +18,8 @@ namespace Infrastructure.Persistence.Repositories
         public async Task Add(Customer customer) => await _context.Customers.AddAsync(customer); // agregar un cliente al contexto
 
         public void Delete(Customer customer) => _context.Customers.Remove(customer); // eliminar un cliente del contexto
+        public void Update(Customer customer) => _context.Customers.Update(customer); // actualizar un cliente en el contexto
+        public async Task<List<Customer>> GetAll() => await _context.Customers.ToListAsync(); // obtener todos los clientes
 
-        public void Update(Customer customer)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

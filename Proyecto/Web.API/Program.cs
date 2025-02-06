@@ -1,5 +1,6 @@
 using Application;
 using Infrastructure;
+using Web.Api.Middlewares;
 using Web.API;
 using Web.API.Extensions;
 
@@ -25,6 +26,8 @@ app.UseExceptionHandler("/error"); // Añadimos el manejador de excepciones
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<GlobalExceptionHandlingMiddleware>(); // Añadimos el middleware de manejo de excepciones
 
 app.MapControllers(); // Añadimos los controladores
 

@@ -31,4 +31,10 @@ public sealed class Customer : AggregateRoot
     public Address Address { get; private set; } // Value Object
 
     public bool IsActive { get;  set; } // Propiedad
+
+    // Metodo de clase que retorna una nueva instancia de Customer
+    public static Customer Update(CustomerId customerId, string name, string lastName, string email, PhoneNumber phoneNumber, Address address)
+    {
+        return new Customer(customerId, name, lastName, email, phoneNumber, address);
+    }
 }

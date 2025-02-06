@@ -1,6 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using FluentValidation.AspNetCore;
 using FluentValidation;
+using MediatR;
+using Application.Command.Behaviors;
 
 namespace Application;
 
@@ -16,6 +18,12 @@ public static class DependencyInjection
         {
             config.RegisterServicesFromAssemblyContaining<ApplicationAssemblyReference>();
         });
+
+        // añadiendo los servicios de FluentValidation
+        services.AddScoped(
+            typeof(IPipelineBehavior<,>), // tipo de servicio a añadir al contenedor de servicios
+            typeof(ValidationBehavior<,>) // tipo de implementación del servicio 
+        );
 
         // añadiendo los servicios de FluentValidation
         services.AddValidatorsFromAssemblyContaining<ApplicationAssemblyReference>();

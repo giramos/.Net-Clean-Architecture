@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oT6A8Et0+BTm+ST11kok74TUqOtnf972B50Xl28eDWbPFBuRQsTBMfkXaKD01FMyBB8R3qybLTfYsNz3maCZqA==",
+  "dgSpecHash": "wQFRk8tJwHKAlipGITvH4c7tvHZjo0Obg9OROT70uxxt3a5Jg3P0EYiFhfit9v/QzMl4UsLZf48vyOhrt8sRsg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\germa\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

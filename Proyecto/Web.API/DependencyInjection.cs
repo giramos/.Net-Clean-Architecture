@@ -1,6 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using FluentValidation.AspNetCore;
 using FluentValidation;
+using Web.Api.Middlewares;
 
 namespace Web.API;
 // Clase de extensión para la inyección de dependencias
@@ -15,6 +16,8 @@ public static class DependencyInjection
         services.AddEndpointsApiExplorer(); 
         // Agregar la documentación de Swagger
         services.AddSwaggerGen();
+        // Agregar la inyección de dependencias de FluentValidation
+        services.AddTransient<GlobalExceptionHandlingMiddleware>();
         return services;
     }
 
