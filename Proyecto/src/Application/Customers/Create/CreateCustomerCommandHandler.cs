@@ -3,6 +3,7 @@ using Domain.ObjetosValor;
 using Domain.Primitivos;
 using ErrorOr;
 using MediatR;
+using Domain.DomainErrors;
 
 namespace Application.Customers.Create;
 
@@ -28,7 +29,8 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
         if (PhoneNumber.Create(request.PhoneNumber) is not PhoneNumber phoneNumber)
         {
             // throw new Exception("Phone number is required. " + nameof(PhoneNumber))
-            return Error.Validation("Customer.Phone " + "Customer phone number is required. Format valid [9 digits]"); // Se retorna un error de validación
+            // return Error.Validation("Customer.Phone " + "Customer phone number is required. Format valid [9 digits]"); // Se retorna un error de validación
+            return Errors.Customer.PhoneNumberWithBadFormat; // Se retorna un error de validación
         }
 
         var address = Address.Create(request.Street, request.City, request.State, request.Country, request.ZipCode);
@@ -36,14 +38,16 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
         if (address is null)
         {
             // throw new Exception("Address is required. " + nameof(Address));
-            return Error.Validation("Customer.Address: " + "Customer address is required."); // Se retorna un error de validación
+            // return Error.Validation("Customer.Address: " + "Customer address is required."); // Se retorna un error de validación
+            return Errors.Customer.AddressIsRequired; // Se retorna un error de validación
         }
 
         var customer = new Customer(new CustomerId(Guid.NewGuid()), request.Name, request.LastName, request.Email, phoneNumber, address);
         if (customer is null)
         {
             // throw new Exception("Customer.Customer: " + "Customer is null");
-            return Error.Validation("Customer.Customer: " + "Customer is null"); // Se retorna un error de validación
+            // return Error.Validation("Customer.Customer: " + "Customer is null"); // Se retorna un error de validación
+            return Errors.Customer.CustomerIsNull; // Se retorna un error de validación
         }
 
         await _customerRepository.Add(customer); // Se agrega el cliente
