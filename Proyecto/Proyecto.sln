@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.API", "Web.API\Web.API.csproj", "{5A9D7BAC-FD68-4DB8-8615-7E8BD6204EC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.API", "src\Web.API\Web.API.csproj", "{5A9D7BAC-FD68-4DB8-8615-7E8BD6204EC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{DFF2012D-BA4A-4B40-8F2E-F9E32C679273}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{DFF2012D-BA4A-4B40-8F2E-F9E32C679273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{F442442A-18B9-468D-A8C4-CE4B55C3D037}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{F442442A-18B9-468D-A8C4-CE4B55C3D037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{7D5C74F5-C8B8-45AB-9A01-B2246435D1EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{7D5C74F5-C8B8-45AB-9A01-B2246435D1EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D4D64F8C-8A24-4A62-8AB6-1E602C6C52FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{3B9E4DC8-1482-41FE-B807-3A7650E77588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Customers.UnitTests", "tests\UnitTests\Application.Customers.UnitTests\Application.Customers.UnitTests.csproj", "{BB7592E7-BB97-4B23-A50D-A56A42144BE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +42,13 @@ Global
 		{7D5C74F5-C8B8-45AB-9A01-B2246435D1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D5C74F5-C8B8-45AB-9A01-B2246435D1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D5C74F5-C8B8-45AB-9A01-B2246435D1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7592E7-BB97-4B23-A50D-A56A42144BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7592E7-BB97-4B23-A50D-A56A42144BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7592E7-BB97-4B23-A50D-A56A42144BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7592E7-BB97-4B23-A50D-A56A42144BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B9E4DC8-1482-41FE-B807-3A7650E77588} = {D4D64F8C-8A24-4A62-8AB6-1E602C6C52FF}
+		{BB7592E7-BB97-4B23-A50D-A56A42144BE1} = {3B9E4DC8-1482-41FE-B807-3A7650E77588}
 	EndGlobalSection
 EndGlobal
