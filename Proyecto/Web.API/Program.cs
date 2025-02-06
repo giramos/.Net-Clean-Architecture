@@ -20,6 +20,8 @@ if (app.Environment.IsDevelopment())
     app.ApplyMigrations(); // Añadimos la migración
 }
 
+app.UseExceptionHandler("/error"); // Añadimos el manejador de excepciones
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

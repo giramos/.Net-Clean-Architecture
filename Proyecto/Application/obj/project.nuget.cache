@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qXHryj3XEuIfxdEqn45ELVJ6UkD4CNB1ZjRtTKlvQcDK2P/SpIWbNM8/yE/7/AOidlIXQbsk9RNmcjVOBOfIQA==",
+  "dgSpecHash": "V3ko5QXMqI4RUxIxUAC9iAnNGsnFmtHoMUeyTenc8QUxrVoIx29pJrDcMhizAdlpBIb4Dd1sPVeqCcP5pAEiVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\germa\\Desktop\\DDD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\germa\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",

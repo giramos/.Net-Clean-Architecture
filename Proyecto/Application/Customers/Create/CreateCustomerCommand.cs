@@ -1,3 +1,4 @@
+using ErrorOr;
 using MediatR;
 
 namespace Application.Customers.Create
@@ -13,6 +14,6 @@ namespace Application.Customers.Create
         string City,
         string Street,
         string ZipCode
-    ) : IRequest<Unit>;
+    ) : IRequest<ErrorOr<Unit>>;// Implementa la interfaz IRequest y se le pasa el tipo de retorno ErrorOr<Unit>
 
 }

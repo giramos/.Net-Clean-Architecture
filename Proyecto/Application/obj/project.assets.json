@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "ErrorOr/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/11.5.2": {
         "type": "package",
         "compile": {
@@ -852,6 +865,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "ErrorOr": "1.2.1",
           "MediatR": "12.4.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
         },
@@ -865,6 +879,22 @@
     }
   },
   "libraries": {
+    "ErrorOr/1.2.1": {
+      "sha512": "5xcbQErEPQKq2z/sLwSaFPX3T2G7x4ISX0us0X7jSxXSQT/wlfOOhw4knPUN/GWOf2strhuzdvRA36JViwvu+A==",
+      "type": "package",
+      "path": "erroror/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "erroror.1.2.1.nupkg.sha512",
+        "erroror.nuspec",
+        "icon-square.png",
+        "lib/net6.0/ErrorOr.dll",
+        "lib/net6.0/ErrorOr.xml",
+        "lib/netstandard2.0/ErrorOr.dll",
+        "lib/netstandard2.0/ErrorOr.xml"
+      ]
+    },
     "FluentValidation/11.5.2": {
       "sha512": "kj/hW/iusp2zq1Vt1YPLgDj6UG0DhoJXGkLwjLwm3j7vUtRF8DVA5vHJfItG3BxDjLWJUR2pvw8fK7rnuysZNA==",
       "type": "package",
@@ -2163,6 +2193,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Domain >= 1.0.0",
+      "ErrorOr >= 1.2.1",
       "FluentValidation >= 11.5.2",
       "FluentValidation.AspNetCore >= 11.3.0",
       "MediatR >= 12.4.1",
@@ -2178,11 +2209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\germa\\Desktop\\DDD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\germa\\Desktop\\DDD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\germa\\Desktop\\DDD\\.Net-Clean-Architecture\\Proyecto\\Application\\obj\\",
+      "outputPath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2203,8 +2234,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\germa\\Desktop\\DDD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\germa\\Desktop\\DDD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj"
+            "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2219,6 +2250,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "ErrorOr": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
           "FluentValidation": {
             "target": "Package",
             "version": "[11.5.2, )"
