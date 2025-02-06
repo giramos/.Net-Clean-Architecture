@@ -5,6 +5,7 @@ using Web.API.Common.Http;
 
 namespace Web.Api.Controller;
 // Clase base para los controladores de la API
+[ApiController] // Decorador para indicar que es un controlador de API
 public class ApiController : ControllerBase
 {
     // Método para devolver un error

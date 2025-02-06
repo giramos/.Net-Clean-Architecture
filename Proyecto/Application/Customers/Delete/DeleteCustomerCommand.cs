@@ -1,5 +1,5 @@
-namespace Application.Customers.Delete
+namespace Application.Customers.Delete;
 
 using MediatR;
 
-public record DeleteCustomerCommand(Guid Id) : IRequest<Unit>;
+public record DeleteCustomerCommand(Guid Id) : IRequest<Unit>{}

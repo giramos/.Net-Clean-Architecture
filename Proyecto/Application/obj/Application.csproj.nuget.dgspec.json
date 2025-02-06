@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj": {}
+    "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj": {
+    "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\obj\\",
+        "outputPath": "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj"
+              "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj": {
+    "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\germa\\Desktop\\DD\\.Net-Clean-Architecture\\Proyecto\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
